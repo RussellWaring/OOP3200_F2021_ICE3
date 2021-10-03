@@ -34,7 +34,7 @@ Student::~Student()
 /**
  * @return std::string
  */
-std::string Student::getStudentID() const
+std::string Student::GetStudentID() const
 {
     return m_studentID;
 }
@@ -42,7 +42,7 @@ std::string Student::getStudentID() const
 /**
  * @param value
  */
-void Student::setStudentID(const std::string& value)
+void Student::SetStudentID(const std::string& value)
 {
     m_studentID = value;
 }
@@ -64,7 +64,7 @@ std::string Student::ToString()
 
     output_string += Person::ToString();
     output_string += "-------------------------------------------\n";
-    output_string += "Student ID: " + getStudentID() + "\n";
+    output_string += "Student ID: " + GetStudentID() + "\n";
     output_string += "-------------------------------------------\n";
 	
     return output_string;

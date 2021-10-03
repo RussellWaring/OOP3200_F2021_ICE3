@@ -30,7 +30,7 @@ Professor::~Professor()
 /**
  * @return std::string
  */
-std::string Professor::getEmployeeID() const
+std::string Professor::GetEmployeeID() const
 {
     return m_employeeID;
 }
@@ -38,7 +38,7 @@ std::string Professor::getEmployeeID() const
 /**
  * @param value
  */
-void Professor::setEmployeeID(const std::string& value)
+void Professor::SetEmployeeID(const std::string& value)
 {
     m_employeeID = value;
 }
@@ -59,7 +59,7 @@ std::string Professor::ToString() {
 
     output_string += Person::ToString();
     output_string += "-------------------------------------------\n";
-    output_string += "Employee ID: " + getEmployeeID() + "\n";
+    output_string += "Employee ID: " + GetEmployeeID() + "\n";
     output_string += "-------------------------------------------\n";
 
     return output_string;

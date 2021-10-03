@@ -27,12 +27,12 @@ public:
 Professor(const std::string& first_name, const std::string& last_name, float age, std::string employee_id);
 ~Professor();
     
-std::string getEmployeeID() const;
+std::string GetEmployeeID() const;
     
 /**
  * @param value
  */
-void setEmployeeID(const std::string& value);
+void SetEmployeeID(const std::string& value);
     
 void Teaches() const;
     

@@ -27,12 +27,12 @@ public:
 Student(const std::string& first_name, const std::string& last_name, float age, std::string student_id);
 ~Student();
     
-std::string getStudentID() const;
+std::string GetStudentID() const;
     
 /**
  * @param value
  */
-void setStudentID(const std::string& value);
+void SetStudentID(const std::string& value);
     
 void Studies() const;
     
