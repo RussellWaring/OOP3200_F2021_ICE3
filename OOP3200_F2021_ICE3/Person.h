@@ -21,7 +21,7 @@ public:
 /// <param name="last_name"></param>
 /// <param name="age"></param>
 Person(std::string first_name, std::string last_name, float age);
-virtual ~Person() = 0; // need to give this a body to avoid unresolved external
+virtual ~Person() = 0; // Virtual Destructor, marked as 'pure virtual'. Need to give this a body to avoid unresolved external
 
 	
 float GetAge() const;
