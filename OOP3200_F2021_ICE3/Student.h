@@ -25,7 +25,7 @@ public:
 /// <param name="age"></param>
 /// <param name="student_id"></param>
 Student(const std::string& first_name, const std::string& last_name, float age, std::string student_id);
-~Student();
+~Student(); // destructor in parent class demands destructor in child classes
     
 std::string GetStudentID() const;
     
