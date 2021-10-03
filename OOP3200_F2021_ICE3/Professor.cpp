@@ -1,9 +1,10 @@
 /**
- * Project OOP3200-F2020-Lesson4
- * @author Tom Tsiliopoulos
+ * Project OOP3200_F2021_ICE3
+ * @author Russell Waring
  * @version 1.0
+ * @date	2021-10-03
+ * @desc	Derived from the person class. Professor implementation
  */
-
 
 #include "Professor.h"
 
@@ -11,17 +12,13 @@
 #include <iostream>
 #include <utility>
 
-/**
- * Professor implementation
- */
-
-
-/**
- * @param first_name
- * @param last_name
- * @param age
- * @param employee_id
- */
+/// <summary>
+/// Professor Constructor
+/// </summary>
+/// <param name="first_name"></param>
+/// <param name="last_name"></param>
+/// <param name="age"></param>
+/// <param name="employee_id"></param>
 Professor::Professor(const std::string& first_name, const std::string& last_name, const float age, std::string employee_id):
 	Person(first_name, last_name, age), m_employeeID(std::move(employee_id))
 {

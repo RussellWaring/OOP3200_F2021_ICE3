@@ -1,3 +1,11 @@
+/**
+ * Project OOP3200_F2021_ICE3
+ * @author Russell Waring
+ * @version 1.0
+ * @date	2021-10-03
+ * @desc	Following along with video and code provided by Tom Tsiliopoulos for the course OOP3200,
+ *			focusing on the concepts of inheritance and polymorphism.
+ */
 
 #include <iostream>
 #include <vector>
